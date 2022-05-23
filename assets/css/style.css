@@ -4767,6 +4767,22 @@ ul {
   background-color: #353592;
   background-image: url(../img/download-stores.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.call-to-action-inner-style-02:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  z-index: -1;
+  background-image: -moz-linear-gradient(176deg, #0250c5 0%, #ff1a1a 100%);
+  background-image: -webkit-linear-gradient(176deg, #0250c5 0%, #ff1a1a 100%);
+  background-image: -ms-linear-gradient(176deg, #0250c5 0%, #ff1a1a 100%);
+  opacity: .8;
+  border-radius: 10px;
 }
 
 .call-to-action-inner-style-02 .title {
